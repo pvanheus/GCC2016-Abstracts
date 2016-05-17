@@ -1,1 +1,3 @@
 ## Title: Galaxy Interactive Environment
+
+Storing the entitities that describe a genome and its annotation involves modelling and storing thousands of entities that are interrelated in complex ways. Graph databases, a recently emerging form of non-relational (NoSQL) database, are well suited for this task. The COMBAT TB project relies on a Neo4J graph database for storing and querying annotation of Mycobacterium tuberculosis. This data is made available via a web interface (the COMBAT TB Explorer) but can also be explored directly using the Neo4J Shell. We implemented a Galaxy Interactive Environment (GIE) to explore a Neo4J database from within Galaxy and demonstrate its utility for data mining the COMBAT TB annotation database.
