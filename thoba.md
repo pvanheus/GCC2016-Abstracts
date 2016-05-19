@@ -1,4 +1,4 @@
-## Title: Galaxy Interactive Environment
+## Title: A Galaxy Interactive Environment for exploring the Neo4J Graph Database
 
 
 
