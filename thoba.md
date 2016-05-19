@@ -1,5 +1,5 @@
 ## Title: A Galaxy Interactive Environment for exploring the Neo4J Graph Database
-
+### Authors: Thoba Lose, Peter van Heusden, Alan Christoffels
 
 
 Storing the entities that describe a genome and its annotation involves modeling and storing thousands of entities that are interrelated in complex ways. Graph databases, a recently emerging form of non-relational (NoSQL) database, are seen as a natural fit to the huge network of relationships between these entities. The recently initiated COMBAT-TB project (http://christoffels.sanbi.ac.za/index.php/projects/combat-tb) aims to provide a platform for researchers to analyze and visualize their own _M.tuberculosis_ genome sequencing data, primarily through a web interface (the COMBAT TB Explorer). This integrated platform relies on Neo4J, a highly scalable graph database,  for storing and querying annotation of _Mycobacterium tuberculosis_. To expose the full power of the Neo4J database and its Cypher declarative query language, we implemented a Galaxy Interactive Environment (GIE) to explore a Neo4J database from within Galaxy and demonstrate its utility for data mining the COMBAT TB annotation database. 
